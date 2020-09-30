@@ -1,11 +1,7 @@
 # Quora-Insincere-questions
 
 **Project Name:** Quora Insincere Questions Classification
-**Project Team Members:**
-Neha Aggarwal
-Xiuli Gu
-Thingom Bishal Singha 
-Arjun Gurudatta Hegde 
+
 
 ## 1. Introduction and Problem Description
 

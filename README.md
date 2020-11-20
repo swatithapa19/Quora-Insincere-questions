@@ -489,66 +489,8 @@ The validation data ROC curve: 0.
 
 ## 7. Conclusion
 
-In our project, the best performance is 96% accuracy for validation dataset, and the best AUC is
+In this project, the best performance is 96% accuracy for validation dataset, and the best AUC is
 0.964. Deep learning algorithms (RNN and CNN) have almost the same performance in terms of
 accuracy, which is better than SVM and XGboost. Since we use Keras CuDNNRGU that is
 GPU-only for RNN, the running time of RNN is obviously less than CNN.
-
-
-## 8. Contribution of team members
-
-```
-Works Contributor
-```
-```
-Data preprocessing and data analysis Neha Aggarwal
-Xiuli Gu
-Arjun Gurudatta Hegde
-Thingom Bishal Singha
-```
-```
-CNN model coding and testing Neha Aggarwal
-```
-```
-RNN model coding and testing Xiuli Gu
-```
-```
-Support Vector Machine coding and testing Arjun Gurudatta Hegde
-```
-```
-XGBoost Classifier Coding and Testing Thingom Bishal Singha
-```
-```
-Project report and Demo Arjun Gurudatta Hegde
-Thingom Bishal Singha
-Neha Aggarwal
-Xiuli Gu
-```
-
-## 9. References
-
-References for RNN, Keras and embedding method
-https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be
-https://keras.io/layers/recurrent/
-https://www.kaggle.com/sudalairajkumar/a-look-at-different-embeddings
-https://www.kaggle.com/christofhenkel/how-to-preprocessing-when-using-embeddings
-
-References for CNN, Keras and embedding
-[http://www.joshuakim.io/understanding-how-convolutional-neural-network-cnn-perform-text-](http://www.joshuakim.io/understanding-how-convolutional-neural-network-cnn-perform-text-)
-classification-with-word-embeddings/
-https://www.kaggle.com/shujian/blend-of-lstm-and-cnn-with- 4 - embeddings-1200d
-
-References for SVM and embedding method
-[http://www.cs.cornell.edu/~tj/publications/joachims_98a.pdf](http://www.cs.cornell.edu/~tj/publications/joachims_98a.pdf)
-https://www.kaggle.com/nhrade/text-classification-using-word-embeddings
-
-References for XGBoost and tf-idf
-https://xgboost.readthedocs.io/en/latest/
-https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
-https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-
-behind-xgboost/
-[http://www.tfidf.com/](http://www.tfidf.com/)
-https://scikit-
-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
-
 
